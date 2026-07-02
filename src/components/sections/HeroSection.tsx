@@ -15,9 +15,10 @@ export function HeroSection() {
           <p className="mb-4 text-sm font-bold uppercase tracking-wide text-primary">
             30분 MVP 실습 가이드
           </p>
-          <h1 className="max-w-3xl text-4xl font-black leading-tight text-ink md:text-6xl">
-            개발을 몰라도 괜찮습니다.
-            <span className="block text-primary">AI와 함께 첫 앱을 만들어 보세요.</span>
+          <h1 className="max-w-2xl break-keep text-4xl font-black leading-tight text-ink md:text-5xl xl:text-6xl">
+            <span className="block">개발을 몰라도 괜찮습니다.</span>
+            <span className="block text-primary">AI와 함께 첫 앱을</span>
+            <span className="block text-primary">만들어 보세요.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
             Teacher Maker는 교사가 교실과 일상에서 바로 떠올릴 수 있는 작은 문제를

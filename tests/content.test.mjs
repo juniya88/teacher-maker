@@ -34,4 +34,11 @@ describe("Teacher Maker MVP content contract", () => {
     assert.ok((source.match(/prompt:/g) ?? []).length >= 6);
     assert.doesNotMatch(source, /GPT API|로그인|회원가입|서버 DB/);
   });
+  it("keeps the hero headline as intentional Korean line breaks", () => {
+    const source = readSource("src/components/sections/HeroSection.tsx");
+
+    assert.match(source, /break-keep/);
+    assert.match(source, /AI와 함께 첫 앱을/);
+    assert.match(source, /만들어 보세요\./);
+  });
 });
