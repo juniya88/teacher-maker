@@ -1,0 +1,13 @@
+﻿.next/
+node_modules/
+.pnpm-store/
+
+codex-*-server.log
+run-dev.cmd
+run-dev.ps1
+start-dev-server.mjs
+start-prod-server.mjs
+
+.env*
+!.env.example
+*.log
