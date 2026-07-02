@@ -11,3 +11,4 @@ start-prod-server.mjs
 .env*
 !.env.example
 *.log
+.vercel
